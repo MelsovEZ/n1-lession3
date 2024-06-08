@@ -20,7 +20,7 @@ export default function PageApp({params}: { params: { id: string } }) {
     }, [params.id]);
 
     return (
-        <div className="container mx-auto mt-6 px-4 h-[74.7vh]">
+        <div className="container mx-auto mt-6 px-4 h-[74.5vh]">
             {post ? (
                 <div className="shadow-lg rounded-lg p-6 mb-4 bg-gray-100">
                     <h2 className="text-2xl font-bold mb-4">{post.title}</h2>
@@ -29,10 +29,9 @@ export default function PageApp({params}: { params: { id: string } }) {
                     <div className="flex flex-wrap items-center mb-4">
                         <span className="text-gray-500">Tags:</span>
                         <div className="flex flex-wrap space-x-2">
-                            {post.tags.map((tag, index) => (
-                                <span key={index}
-                                      className="rounded-full px-3 py-1 text-sm font-semibold text-gray-700">{tag}</span>
-                            ))}
+                                <span className="rounded-full px-1 text-sm font-semibold text-gray-700">
+                                    {post.tags.join(", ")}
+                                </span>
                         </div>
                     </div>
 
