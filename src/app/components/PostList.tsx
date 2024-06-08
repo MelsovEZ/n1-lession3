@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { fetchPosts } from "@/app/utils/api";
 import { Post } from "@/app/utils/types";
 import Link from "next/link";
-import Image from "next/image";
 
 const PostListItem = ({ post }: { post: Post }) => (
     <div key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col border-2 my-6">
@@ -17,11 +16,14 @@ const PostListItem = ({ post }: { post: Post }) => (
                 Read more
             </Link>
             <div className="flex items-center mt-3 text-sm text-gray-600">
-                <Image className='w-4 h-4 mr-1' src="https://img.icons8.com/fluency-systems-regular/48/visible--v1.png" alt="visible--v1"/>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className='w-4 h-4 mr-1' src="https://img.icons8.com/fluency-systems-regular/48/visible--v1.png" alt="visible--v1"/>
                 <span className="mr-4">{post.views}</span>
-                <Image className='w-4 h-4 mr-1' src="https://img.icons8.com/ios/50/thumb-up--v1.png" alt="thumb-up--v1"/>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className='w-4 h-4 mr-1' src="https://img.icons8.com/ios/50/thumb-up--v1.png" alt="thumb-up--v1"/>
                 <span className="mr-4">{post.reactions.likes}</span>
-                <Image className='w-4 h-4 mr-1' src="https://img.icons8.com/ios/50/thumbs-down.png" alt="thumbs-down"/>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className='w-4 h-4 mr-1' src="https://img.icons8.com/ios/50/thumbs-down.png" alt="thumbs-down"/>
                 <span>{post.reactions.dislikes}</span>
             </div>
         </div>
