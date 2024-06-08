@@ -3,13 +3,13 @@ import {useEffect, useState} from 'react';
 import {fetchPostById} from "@/app/utils/api";
 import {Post} from "@/app/utils/types";
 
-export default function PageApp({params}: { params: { id: string } }) {
+export default function PageApp({params}: { params: { id: number } }) {
     const [post, setPost] = useState<Post | null>(null);
 
     useEffect(() => {
         const fetchPost = async () => {
             try {
-                const postData = await fetchPostById(parseInt(params.id, 10));
+                const postData = await fetchPostById(params.id);
                 setPost(postData);
             } catch (error) {
                 console.error('Error fetching post:', error);

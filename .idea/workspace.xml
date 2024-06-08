@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="424b54ed-28d9-4ef2-b18e-2f5baf64b60b" name="Changes" comment="Fixed some minor issues">
+      <change afterPath="$PROJECT_DIR$/src/app/axiosConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/context/AuthContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/context/MyContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/PostList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/PostList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717748251747</updated>
       <workItem from="1717748253765" duration="17794000" />
-      <workItem from="1717839827706" duration="1232000" />
+      <workItem from="1717839827706" duration="22766000" />
     </task>
     <task id="LOCAL-00001" summary="Alpha version">
       <option name="closed" value="true" />
@@ -128,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717839947135</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed some minor issues">
+      <option name="closed" value="true" />
+      <created>1717841100604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717841100604</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
