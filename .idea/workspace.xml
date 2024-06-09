@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="424b54ed-28d9-4ef2-b18e-2f5baf64b60b" name="Changes" comment="Fixed some minor issues">
-      <change afterPath="$PROJECT_DIR$/src/app/axiosConfig.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/LoginPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/context/AuthContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/context/MyContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/ClientComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/PostList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/PostList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -59,22 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jsx.switch.disabled&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yernur/Desktop/n1/n1-lession3/src/app/components&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Yernur\\Desktop\\n1\\n1-lession3\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jsx.switch.disabled": "true",
+    "last_opened_file_path": "C:/Users/Yernur/example-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\Yernur\\Desktop\\n1\\n1-lession3\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -105,7 +96,9 @@
       <option name="presentableId" value="Default" />
       <updated>1717748251747</updated>
       <workItem from="1717748253765" duration="17794000" />
-      <workItem from="1717839827706" duration="22766000" />
+      <workItem from="1717839827706" duration="23672000" />
+      <workItem from="1717940673770" duration="1583000" />
+      <workItem from="1717942523943" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="Alpha version">
       <option name="closed" value="true" />
@@ -147,11 +140,30 @@
       <option name="project" value="LOCAL" />
       <updated>1717841100604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed some minor issues">
+      <option name="closed" value="true" />
+      <created>1717878958452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717878958452</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alpha version" />
