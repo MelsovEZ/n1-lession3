@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424b54ed-28d9-4ef2-b18e-2f5baf64b60b" name="Changes" comment="Fixed some minor issues">
-      <change afterPath="$PROJECT_DIR$/src/app/components/ClientComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="424b54ed-28d9-4ef2-b18e-2f5baf64b60b" name="Changes" comment="Fixed build issue">
+      <change beforePath="$PROJECT_DIR$/src/app/components/ClientComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ClientComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/PostList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/PostList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/context/MyContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/context/MyContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +100,7 @@
       <workItem from="1717748253765" duration="17794000" />
       <workItem from="1717839827706" duration="23672000" />
       <workItem from="1717940673770" duration="1583000" />
-      <workItem from="1717942523943" duration="1708000" />
+      <workItem from="1717942523943" duration="2024000" />
     </task>
     <task id="LOCAL-00001" summary="Alpha version">
       <option name="closed" value="true" />
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717878958452</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed build issue">
+      <option name="closed" value="true" />
+      <created>1717944302583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717944302583</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +179,7 @@
     <MESSAGE value="Alpha version" />
     <MESSAGE value="Basic level" />
     <MESSAGE value="Fixed some minor issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some minor issues" />
+    <MESSAGE value="Fixed build issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed build issue" />
   </component>
 </project>
