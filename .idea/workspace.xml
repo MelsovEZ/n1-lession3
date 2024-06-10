@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424b54ed-28d9-4ef2-b18e-2f5baf64b60b" name="Changes" comment="Removed unnecessary comments and imports">
-      <change beforePath="$PROJECT_DIR$/src/app/context/MyContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/context/MyContext.tsx" afterDir="false" />
+    <list default="true" id="424b54ed-28d9-4ef2-b18e-2f5baf64b60b" name="Changes" comment="Added login function">
+      <change afterPath="$PROJECT_DIR$/src/app/components/ThemeButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/context/LoginContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/context/ThemeContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/utils/axios.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ClientComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/PostCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jsx.switch.disabled": "true",
-    "last_opened_file_path": "C:/Users/Yernur/example-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\Yernur\\Desktop\\n1\\n1-lession3\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jsx.switch.disabled&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yernur/example-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Yernur\\Desktop\\n1\\n1-lession3\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -76,6 +90,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yernur\Desktop\n1\n1-lession3\src\app\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yernur\Desktop\n1\n1-lession3\src\app\context" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -96,7 +113,8 @@
       <workItem from="1717748253765" duration="17794000" />
       <workItem from="1717839827706" duration="23672000" />
       <workItem from="1717940673770" duration="1583000" />
-      <workItem from="1717942523943" duration="2166000" />
+      <workItem from="1717942523943" duration="2210000" />
+      <workItem from="1717992873220" duration="8257000" />
     </task>
     <task id="LOCAL-00001" summary="Alpha version">
       <option name="closed" value="true" />
@@ -162,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717944607970</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed navbar error">
+      <option name="closed" value="true" />
+      <created>1717944757066</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717944757066</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +211,8 @@
     <MESSAGE value="Fixed some minor issues" />
     <MESSAGE value="Fixed build issue" />
     <MESSAGE value="Removed unnecessary comments and imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary comments and imports" />
+    <MESSAGE value="Fixed navbar error" />
+    <MESSAGE value="Added login function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added login function" />
   </component>
 </project>

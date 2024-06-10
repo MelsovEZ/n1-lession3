@@ -1,5 +1,7 @@
 'use client';
 import PostList from "./components/PostList";
+import React from "react";
+import "./globals.css";
 
 export default function Home() {
     /*
@@ -34,8 +36,8 @@ export default function Home() {
 
     <div>{resourceData && JSON.stringify(resourceData)}</div>
      */
-
     return (
         <PostList/>
     );
 }
+

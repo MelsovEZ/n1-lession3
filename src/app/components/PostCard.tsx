@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react';
 import {fetchPostById} from "@/app/utils/api";
 import {Post} from "@/app/utils/types";
 
-export default function ClientComponent({id}: { id: string }) {
+export default function PostCard({id}: { id: string }) {
     const [post, setPost] = useState<Post | null>(null);
 
     useEffect(() => {

@@ -3,7 +3,12 @@ import {Post} from './types';
 
 export const fetchPosts = async (): Promise<Post[]> => {
     try {
-        const response = await axios.get('https://dummyjson.com/posts');
+        const response = await axios.get('https://dummyjson.com/posts',
+            {params:
+                    {
+                        limit: 10
+                    }
+            });
         return response.data.posts;
     } catch (error) {
         throw new Error('Failed to fetch posts');

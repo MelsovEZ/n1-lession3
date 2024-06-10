@@ -1,5 +1,6 @@
-import ClientComponent from '@/app/components/ClientComponent';
+import PostCard from '@/app/components/PostCard';
 import {Post} from '@/app/utils/types';
+import "@/app/globals.css";
 
 export async function generateStaticParams() {
     const response = await fetch('https://dummyjson.com/posts');
@@ -12,5 +13,9 @@ export async function generateStaticParams() {
 }
 
 export default function Page({params}: { params: { id: string } }) {
-    return <ClientComponent id={params.id}/>;
+    return (
+        <main>
+            <PostCard id={params.id}/>;
+        </main>
+    )
 }

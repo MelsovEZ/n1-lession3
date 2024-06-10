@@ -4,6 +4,8 @@ import React from "react";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { AuthProvider } from "./context/LoginContext";
+import {ThemeProvider} from "@/app/context/ThemeContext";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -21,7 +23,11 @@ export default function RootLayout({
         <html lang="en">
         <body className={inter.className}>
         <Navbar/>
-        {children}
+        <ThemeProvider>
+            <AuthProvider>
+                {children}
+            </AuthProvider>
+        </ThemeProvider>
         <Footer/>
         </body>
         </html>
